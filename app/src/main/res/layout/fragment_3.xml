@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    tools:context=".Fragment_3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/text_pedidos_voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/title_conta"
+            android:textColor="@color/purple_800"
+            android:textSize="28dp"
+            app:lineHeight="1dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtNomeEmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/conta_nome"
+                    android:textColor="@color/purple_800"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/nameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_border_inputbox11"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Nome"
+                    android:inputType="textWebEmailAddress"
+                    android:padding="15dp"
+                    android:textColor="@color/purple_800"
+                    android:textColorHighlight="@color/purple_800"
+                    android:textColorHint="@color/purple_800"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_quantidade"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <TextView
+                    android:id="@+id/txtTelEmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/conta_telefone"
+                    android:textColor="@color/purple_800"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/telEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_border_inputbox11"
+                    android:drawablePadding="15dp"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Telefone"
+                    android:inputType="phone"
+                    android:padding="15dp"
+                    android:textColor="@color/purple_800"
+                    android:textColorHighlight="@color/purple_800"
+                    android:textColorHint="@color/purple_800"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_quantidade"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <TextView
+                    android:id="@+id/txtEmailEmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Email"
+                    android:textColor="@color/purple_800"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_border_inputbox11"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="Email"
+                    android:inputType="textWebEmailAddress"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/black"
+                    android:textColorHint="@color/purple_800"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_quantidade"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <TextView
+                    android:id="@+id/txtPassNovaEmp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Password"
+                    android:textColor="@color/purple_800"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/passAntigaEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_border_inputbox11"
+                    android:drawablePadding="15dp"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins"
+                    android:hint="@string/conta_passAtual"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@color/purple_800"
+                    android:textColorHighlight="@color/purple_800"
+                    android:textColorHint="@color/purple_800"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_quantidade"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <EditText
+                    android:id="@+id/passNovaEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_border_inputbox11"
+                    android:drawablePadding="15dp"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins"
+                    android:hint="@string/conta_passNova"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textColor="@color/purple_800"
+                    android:textColorHighlight="@color/purple_800"
+                    android:textColorHint="@color/purple_800"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_quantidade"
+                    tools:layout_editor_absoluteX="0dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0"
+                android:height="60dp"
+                android:background="@drawable/round_border_button11_8radius"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/conta_guardarAlt"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0"
+                android:height="60dp"
+                android:background="@drawable/round_border_button11_8radius_white"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/conta_terminar"
+                android:textAllCaps="false"
+                android:textColor="@color/purple_800"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

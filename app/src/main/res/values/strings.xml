@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">FoodEat</string>
+    <string name="title_pedido">Orders</string>
+    <string name="title_stock" translatable="false">Stock</string>
+    <string name="title_conta">Account</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_message">Where dreams become true</string>
+    <string name="insert_data_message">Please insert your data</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="no_account_register"><U>Register</U></string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pedido_porConfirmar">Unconfirmed</string>
+    <string name="pedido_confirmados">Confirmed</string>
+    <string name="Mesa">Table</string>
+    <string name="pedidos_ver_pedido">View Order</string>
+    <string name="stock_categorias">> Categories</string>
+    <string name="stock_pesquisar">Search Category</string>
+    <string name="conta_nome">Name</string>
+    <string name="conta_telefone">Phone Number</string>
+    <string name="conta_passAtual">Current Password</string>
+    <string name="conta_passNova">New Password</string>
+    <string name="conta_guardarAlt">Save Changes</string>
+    <string name="conta_terminar">Log out</string>
+    <string name="login_entrar">Login</string>
+    <string name="verPedido_Pedido">Order</string>
+    <string name="verPedido_btnAceitar">Accept</string>
+    <string name="verPedido_btnRecusar">Decline</string>
+    <string name="verPedido_Entrege">Confirm Delivery</string>
+    <string name="verProduto_btnConfirmar">Confirm</string>
+    <string name="verProduto_nova_quantidade">New stock</string>
+    <string name="popUp_Alterar">Change stock</string>
+    <string name="popUp_BtnConfirmar">Confirm</string>
+    <string name="verProdutos_pesquisar">Search Product</string>
+    <string name="conta_email">Email Address</string>
+    <string name="conta_password">Password</string>
+    <string name="title_pay">Tables</string>
+    <string name="title_mesas">Tables</string>
+    <string name="mesas_verPedidos">View Orders</string>
+    <string name="time_minutos">minutes ago</string>
+    <string name="time_horas">hours ago</string>
+    <string name="time_dias">days ago</string>
+    <string name="mesa_pesquisar">Search Table</string>
+    <string name="mesa_ConfirmarPagamento">Confirm Payment</string>
+</resources>

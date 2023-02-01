@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_1"
+        android:icon="@drawable/icon_pedidosfigma"
+        android:title="@string/title_pedido" />
+    <item
+        android:id="@+id/nav_2"
+        android:icon="@drawable/icon_stockfigma"
+        android:title="@string/title_stock" />
+
+    <item
+        android:id="@+id/nav_4"
+        android:icon="@drawable/icon_tablefigma"
+        android:title="@string/title_pay" />
+    <item
+        android:id="@+id/nav_3"
+        android:icon="@drawable/icon_userfigma"
+        android:title="@string/title_conta" />
+</menu>
